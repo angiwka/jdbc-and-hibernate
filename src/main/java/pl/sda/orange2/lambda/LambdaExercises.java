@@ -26,7 +26,8 @@ public class LambdaExercises {
         // BoysDontCry stupid = new String("");
         // bo string nie implementuje Boys
 
-        //lambda jest metoda anonimowa ale zawsze def lamby pociaga za soba definicje klasy
+        //lambda jest metoda anonimowa ale zawsze pociaga za soba definicje klasy
+        // jesli w interfejsie jest wiecej niz jedna metoda abstrakcyjna to lambda nie zadziala
 
         //wiemy ze tylko jedna metoda to nie trzeba nic wpisywac to jest to samo co wyzej po override
         // () parenthesis - arguments list
