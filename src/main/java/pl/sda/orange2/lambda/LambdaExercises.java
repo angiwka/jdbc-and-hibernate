@@ -24,5 +24,23 @@ public class LambdaExercises {
         anonymousClassReference.silnoreki();
 
         // BoysDontCry stupid = new String("");
+        // bo string nie implementuje Boys
+
+        //lambda jest metoda anonimowa ale zawsze def lamby pociaga za soba definicje klasy
+
+        //wiemy ze tylko jedna metoda to nie trzeba nic wpisywac to jest to samo co wyzej po override
+        // () parenthesis - arguments list
+        // -> arguments, body separator
+        // {} parenthesis - method body
+        BoysDontCry firstLambda = () -> {};
+        //w sout nie trzeba pisac nawiasow otwierajacych cialo metody, bo jest tylko jedna instrukcja
+        BoysDontCry secondLambda = () -> System.out.println("Lambda:)");
+        //lambda to tylko definicja metody bez uzycia
+        secondLambda.silnoreki();
+        BoysDontCry thirdLambda = () -> {
+            System.out.println("one");
+            System.out.println("second");
+        };
+
     }
 }
