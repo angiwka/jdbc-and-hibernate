@@ -33,7 +33,8 @@ public class LambdaExercises {
         // () parenthesis - arguments list
         // -> arguments, body separator
         // {} parenthesis - method body
-        BoysDontCry firstLambda = () -> {};
+        BoysDontCry firstLambda = () -> {
+        };
         //w sout nie trzeba pisac nawiasow otwierajacych cialo metody, bo jest tylko jedna instrukcja
         BoysDontCry secondLambda = () -> System.out.println("Lambda:)");
         //lambda to tylko definicja metody bez uzycia

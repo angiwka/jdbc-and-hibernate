@@ -6,5 +6,7 @@ public interface BoysDontCry {
 
     //public abstract
     void silnoreki();
-    default void cry() {}
+
+    default void cry() {
+    }
 }
