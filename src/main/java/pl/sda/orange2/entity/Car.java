@@ -7,3 +7,4 @@ public record Car(
         String model
 ) {
 }
+
