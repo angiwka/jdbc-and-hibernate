@@ -33,6 +33,10 @@ public class CarDaoExample {
             System.out.println("Now let's delete car");
             carDao.deleteById(1L);
             System.out.println("Cars after deleting one: " + carDao.findAll());
+
+            Car newCarToSave = new Car(null, "pink", "Fiat", "Maluch");
+            carDao.save(newCarToSave);
+            System.out.println("Cars now: " + carDao.findAll());
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
